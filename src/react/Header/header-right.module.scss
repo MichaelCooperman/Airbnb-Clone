@@ -1,0 +1,23 @@
+@use "../../sass" as s;
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 33%;
+
+  div {
+    display: flex;
+    margin: 10px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    margin-left: 100px;
+    white-space: nowrap;
+  }
+}

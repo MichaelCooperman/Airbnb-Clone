@@ -1,0 +1,19 @@
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 33%;
+}
+.right div {
+  display: flex;
+  margin: 10px;
+}
+.right a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  margin-left: 100px;
+  white-space: nowrap;
+}/*# sourceMappingURL=header-right.module.css.map */

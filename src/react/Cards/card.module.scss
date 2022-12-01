@@ -1,0 +1,129 @@
+@use "../../sass" as s;
+
+a {
+  text-decoration: none;
+  color: s.$black;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 375px;
+  width: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 0.8rem;
+  transition: transform 300ms;
+  padding: 10px;
+
+  p {
+    color: rgb(129, 128, 128);
+  }
+}
+
+.cards:hover {
+  transform: scale(1.03);
+}
+
+.cards > img {
+  height: 250px;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.description {
+  padding-top: 10px;
+}
+
+.position {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating {
+  display: flex;
+  margin-left: 68px;
+}
+
+.ratingstar {
+  align-items: center;
+  width: 11px;
+  height: 11px;
+}
+
+.pricing {
+  display: flex;
+  margin-top: 5px;
+}
+.night {
+  margin-left: 2px;
+  margin-top: 1.5px;
+}
+
+@media (max-width: 950px) {
+  .card-container {
+    justify-content: center;
+  }
+
+  .cards {
+    height: 425px;
+    width: 350px;
+  }
+
+  .cards > img {
+    height: 325px;
+  }
+}
+
+@media (max-width: 755px) {
+  .card-container {
+    justify-content: center;
+  }
+
+  .cards {
+    height: 350px;
+    width: 275px;
+  }
+
+  .cards > img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 595px) {
+  .card-container {
+    justify-content: center;
+  }
+
+  .cards {
+    height: 300px;
+    width: 225px;
+  }
+
+  .cards > img {
+    height: 170px;
+  }
+}
+
+@media (max-width: 550px) {
+  .card-container {
+    justify-content: center;
+  }
+
+  .cards {
+    height: 525px;
+    width: 450px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .cards > img {
+    height: 450px;
+  }
+
+  .rating {
+    margin-left: 225px;
+  }
+}

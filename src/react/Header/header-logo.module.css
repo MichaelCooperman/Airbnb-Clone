@@ -1,0 +1,22 @@
+.left {
+  display: flex;
+  min-width: 33%;
+}
+
+.airbnb {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.airbnbsm {
+  display: none;
+}
+
+@media (max-width: 1500px) {
+  .airbnb {
+    display: none;
+  }
+  .airbnbsm {
+    display: flex;
+  }
+}/*# sourceMappingURL=header-logo.module.css.map */

@@ -1,0 +1,8 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=cards.module.css.map */

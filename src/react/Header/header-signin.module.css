@@ -1,0 +1,50 @@
+.dropdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid rgb(226, 226, 226);
+  border-radius: 30px;
+  height: 45px;
+  width: 80px;
+}
+
+.dropdown:hover {
+  box-shadow: 0 4px 2px -2px rgb(226, 226, 226);
+}
+
+.hamburger {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 24px;
+  height: 12px;
+  transition: all 0.25s;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  background-color: black;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(5px);
+}
+
+.hamburger-bottom {
+  transform: translateY(10px);
+}
+
+.user-icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}/*# sourceMappingURL=header-signin.module.css.map */

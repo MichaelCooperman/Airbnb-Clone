@@ -1,0 +1,25 @@
+@use "../../sass" as s;
+
+button {
+  background: none;
+  border: none;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: hidden;
+  width: 96%;
+  height: 80px;
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  .filter-container {
+    width: 93%;
+    display: flex;
+    margin-bottom: 10px;
+    height: 110px;
+  }
+}

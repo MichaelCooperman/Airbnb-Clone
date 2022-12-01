@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4552105a.chunk.css",
+    "main.js": "/static/js/main.da2de4c1.chunk.js",
+    "main.js.map": "/static/js/main.da2de4c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.481e91ee.js",
+    "runtime-main.js.map": "/static/js/runtime-main.481e91ee.js.map",
+    "static/js/2.f43a9f35.chunk.js": "/static/js/2.f43a9f35.chunk.js",
+    "static/js/2.f43a9f35.chunk.js.map": "/static/js/2.f43a9f35.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4552105a.chunk.css.map": "/static/css/main.4552105a.chunk.css.map",
+    "static/js/2.f43a9f35.chunk.js.LICENSE.txt": "/static/js/2.f43a9f35.chunk.js.LICENSE.txt",
+    "static/media/House-test.jpg": "/static/media/House-test.e9daf2e2.jpg",
+    "static/media/airbnb-logo.e4424517.png": "/static/media/airbnb-logo.e4424517.png",
+    "static/media/filter-icon.487c8807.png": "/static/media/filter-icon.487c8807.png",
+    "static/media/globe-icon.c6e40a4a.png": "/static/media/globe-icon.c6e40a4a.png",
+    "static/media/ratings-icon.png": "/static/media/ratings-icon.57c0b031.png",
+    "static/media/search-icon.587ffbb2.png": "/static/media/search-icon.587ffbb2.png",
+    "static/media/user-icon-2.ae3a914b.png": "/static/media/user-icon-2.ae3a914b.png",
+    "static/media/user-icon.5022ac43.png": "/static/media/user-icon.5022ac43.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.481e91ee.js",
+    "static/js/2.f43a9f35.chunk.js",
+    "static/css/main.4552105a.chunk.css",
+    "static/js/main.da2de4c1.chunk.js"
+  ]
+}

@@ -1,0 +1,37 @@
+@use "../../sass" as s;
+
+button {
+  background: none;
+  border: none;
+}
+
+.filter-button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 50px;
+  min-width: 90px;
+  border: 1px solid s.$lightGrey;
+  border-radius: 12px;
+}
+
+.filter-button:hover {
+  border: 1px solid s.$black;
+  opacity: 100%;
+}
+
+.filter-align {
+  display: flex;
+  align-items: center;
+}
+
+.filter-icon {
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 900px) {
+  .filter-button {
+    display: none;
+  }
+}
