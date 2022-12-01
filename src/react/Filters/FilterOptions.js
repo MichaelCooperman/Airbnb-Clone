@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import IMGS from "../../images/index.js";
+import IMGS from "../../images/images.js";
 import classes from "./filter-options.module.css";
 import requests from "../Cards/requests.js";
 
