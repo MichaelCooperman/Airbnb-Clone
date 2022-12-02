@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-// import classes from "../../sass/_header.module.scss";
 import classes from "./header.module.css";
 import HeaderLogo from "./HeaderLogo";
 import HeaderRight from "./HeaderRight";
