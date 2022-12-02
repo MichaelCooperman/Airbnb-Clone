@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import IMGS from "../../images";
-import classes from "../Filters/filter-options.module.css";
+import classes from "./filter-options.module.css";
 import requests from "../Cards/requests.js";
 // import Amazingviews from "../../images/filters/Amazingviews.jpg";
 // import Bedandbreakfast from "../../images/filters/Bedandbreakfasts.jpg";
@@ -21,7 +21,7 @@ const FilterOptions = ({ setSelectedOption }) => {
           className={classes["btn"]}
           onClick={() => setSelectedOption(requests.fetchAmazingViews)}
         >
-          <span>
+          <div>
             <img
               className={classes.imgs}
               // src={Amazingviews}
@@ -31,7 +31,7 @@ const FilterOptions = ({ setSelectedOption }) => {
             <div>
               <span>Amazing Views</span>
             </div>
-          </span>
+          </div>
         </button>
         <button
           className={classes["btn"]}
