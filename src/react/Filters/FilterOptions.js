@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import IMGS from "../../images";
-import classes from "./filter-options.module.css";
+import classes from "../Filters/filter-options.module.css";
 import requests from "../Cards/requests.js";
 // import Amazingviews from "../../images/filters/Amazingviews.jpg";
 // import Bedandbreakfast from "../../images/filters/Bedandbreakfasts.jpg";
