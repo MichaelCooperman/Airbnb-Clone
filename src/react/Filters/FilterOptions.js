@@ -21,7 +21,7 @@ const FilterOptions = ({ setSelectedOption }) => {
           className={classes["btn"]}
           onClick={() => setSelectedOption(requests.fetchAmazingViews)}
         >
-          <div>
+          <span>
             <img
               className={classes.imgs}
               // src={Amazingviews}
@@ -31,7 +31,7 @@ const FilterOptions = ({ setSelectedOption }) => {
             <div>
               <span>Amazing Views</span>
             </div>
-          </div>
+          </span>
         </button>
         <button
           className={classes["btn"]}
