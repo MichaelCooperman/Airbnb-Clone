@@ -268,7 +268,7 @@ body {
 }
 .filter-button_filter-button__1A3Ls:hover {
   border: 1px solid #000;
-  opacity: 0.6;
+  opacity: 6;
 }
 .filter-button_filter-align__3MdK3 {
   display: flex;
@@ -291,12 +291,12 @@ body {
   width: 100%;
 }
 .filter-options_btn__2KRzd {
-  opacity: 0.65;
+  opacity: 6.5;
   min-width: 10%;
 }
 .filter-options_btn__2KRzd:focus,
 .filter-options_btn__2KRzd:hover {
-  opacity: 0.8;
+  opacity: 8;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
