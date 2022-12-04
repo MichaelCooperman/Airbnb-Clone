@@ -14,19 +14,19 @@ button {
 }
 
 .btn {
-  opacity: 0.65;
+  opacity: 65% !important;
   min-width: 10%;
 }
 
 .btn:hover {
-  opacity: 0.8;
+  opacity: 80% !important;
   transition: transform 300ms;
   color: s.$black;
   border-bottom: 2px solid s.$black;
 }
 
 .btn:focus {
-  opacity: 1;
+  opacity: 100% !important;
   transition: transform 300ms;
   color: s.$black;
   border-bottom: 2px solid s.$black;
