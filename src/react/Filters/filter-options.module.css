@@ -8,23 +8,23 @@ button {
   flex-direction: row;
   justify-content: center;
   overflow: hidden;
-  width: 100%;
+  width: 96%;
 }
 
 .btn {
-  opacity: 65%;
+  opacity: 0.6;
   min-width: 10%;
 }
 
 .btn:hover {
-  opacity: 80%;
+  opacity: 0.8;
   transition: transform 300ms;
   color: black;
   border-bottom: 2px solid black;
 }
 
 .btn:focus {
-  opacity: 100%;
+  opacity: 1;
   transition: transform 300ms;
   color: black;
   border-bottom: 2px solid black;
