@@ -15,6 +15,7 @@
 }
 .footer-small p {
   font-size: 0.65rem;
+  color: rgb(226, 226, 226);
 }
 .footer-small button:focus {
   color: rgb(184, 68, 93);

@@ -50,6 +50,9 @@
   display: flex;
   justify-content: flex-start;
 }
+.where-to h4 {
+  color: rgb(226, 226, 226);
+}
 
 .additional-text {
   display: flex;

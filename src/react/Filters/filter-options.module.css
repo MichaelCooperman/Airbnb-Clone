@@ -15,6 +15,9 @@ button {
   opacity: 0.6;
   min-width: 10%;
 }
+.btn span {
+  color: rgb(226, 226, 226);
+}
 
 .btn:hover {
   opacity: 0.8;

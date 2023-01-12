@@ -54,6 +54,10 @@
 .where-to {
   display: flex;
   justify-content: flex-start;
+
+  h4 {
+    color: s.$lightGrey;
+  }
 }
 
 .additional-text {

@@ -16,6 +16,10 @@ button {
 .btn {
   opacity: 0.6;
   min-width: 10%;
+
+  span {
+    color: s.$lightGrey;
+  }
 }
 
 .btn:hover {
