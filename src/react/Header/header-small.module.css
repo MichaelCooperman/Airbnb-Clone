@@ -75,4 +75,10 @@
 .filter-icon img {
   height: 25px;
   width: 25px;
+}
+
+@media (max-width: 345px) {
+  .search-info p {
+    font-size: 0.6rem;
+  }
 }/*# sourceMappingURL=header-small.module.css.map */

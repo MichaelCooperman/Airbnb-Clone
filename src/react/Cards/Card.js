@@ -6,7 +6,11 @@ import IMGS from "../../images";
 const Card = ({ house }) => {
   return (
     <a href={house.link} className={classes.cards}>
-      <img src={house.image} alt="house-test" />
+      <img
+        className={classes["card-image"]}
+        src={house.image}
+        alt="house-test"
+      />
       <div className={classes.description}>
         <div className={classes.position}>
           <h4>{house.location}</h4>

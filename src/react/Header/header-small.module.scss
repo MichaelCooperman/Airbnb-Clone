@@ -82,3 +82,11 @@
     width: 25px;
   }
 }
+
+@media (max-width: 345px) {
+  .search-info {
+    p {
+      font-size: 0.6rem;
+    }
+  }
+}

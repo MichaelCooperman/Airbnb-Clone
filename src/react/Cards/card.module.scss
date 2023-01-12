@@ -9,8 +9,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 375px;
-  width: 300px;
+  width: 320px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   font-size: 0.8rem;
@@ -35,6 +36,7 @@ a {
 
 .description {
   padding-top: 10px;
+  width: 100%;
 }
 
 .position {
@@ -83,12 +85,16 @@ a {
   }
 
   .cards {
-    height: 350px;
+    max-height: 315px;
     width: 275px;
   }
 
   .cards > img {
-    height: 250px;
+    max-height: 250px;
+  }
+
+  .card-image {
+    max-height: 250px;
   }
 }
 
@@ -117,6 +123,8 @@ a {
     width: 450px;
     padding: 10px;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   .cards > img {
@@ -125,5 +133,28 @@ a {
 
   .rating {
     margin-left: 225px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cards {
+    height: 500px;
+    width: 320px;
+    margin-top: 30px;
+  }
+
+  .card-image {
+    height: 200px;
+  }
+
+  .description {
+    width: 300px;
+    align-self: flex-start;
+    padding: 10px 0;
+  }
+
+  .rating {
+    display: flex;
+    margin-left: 185px;
   }
 }

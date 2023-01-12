@@ -28,7 +28,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.amazingviews}
               alt="Amazingviews-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Amazing Views</span>
             </div>
           </span>
@@ -44,7 +44,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.bedandbreakfast}
               alt="Bed&Breakfast-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Bed & Breakfast</span>
             </div>
           </span>
@@ -60,7 +60,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.cabins}
               alt="Cabins-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Cabins</span>
             </div>
           </span>
@@ -76,7 +76,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.creativespaces}
               alt="CreativeSpaces-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Creative Spaces</span>
             </div>
           </span>
@@ -92,7 +92,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.farms}
               alt="Farms-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Farms</span>
             </div>
           </span>
@@ -108,7 +108,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.islands}
               alt="Islands-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Islands</span>
             </div>
           </span>
@@ -124,7 +124,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.mansions}
               alt="Mansions-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Mansions</span>
             </div>
           </span>
@@ -140,7 +140,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.skiing}
               alt="Skiing-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Skiing</span>
             </div>
           </span>
@@ -156,7 +156,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.tinyhomes}
               alt="TinyHomes-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>Tiny Homes</span>
             </div>
           </span>
@@ -172,7 +172,7 @@ const FilterOptions = ({ setSelectedOption }) => {
               src={IMGS.omg}
               alt="OMG-img"
             />
-            <div>
+            <div className={classes["des-size"]}>
               <span>OMG!</span>
             </div>
           </span>
