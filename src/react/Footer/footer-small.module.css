@@ -6,7 +6,8 @@
   height: 60px;
   background-color: white;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
+  left: 0;
 }
 .footer-small img {
   height: 20px;
