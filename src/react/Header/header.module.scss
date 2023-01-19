@@ -1,5 +1,14 @@
 @use "../../sass" as s;
 
+.add {
+  display: flex;
+  justify-content: center;
+}
+
+.res {
+  max-width: 1440px;
+}
+
 .header {
   display: flex;
   width: 100%;
