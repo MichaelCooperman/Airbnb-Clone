@@ -41,10 +41,12 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.position h4 {
+  flex-wrap: nowrap;
+}
 
 .rating {
   display: flex;
-  margin-left: 68px;
 }
 
 .ratingstar {
@@ -117,9 +119,6 @@ a {
   .cards > img {
     height: 450px;
   }
-  .rating {
-    margin-left: 225px;
-  }
 }
 @media (max-width: 320px) {
   .cards {
@@ -137,6 +136,5 @@ a {
   }
   .rating {
     display: flex;
-    margin-left: 185px;
   }
 }/*# sourceMappingURL=card.module.css.map */

@@ -42,11 +42,14 @@ a {
 .position {
   display: flex;
   justify-content: space-between;
+  h4 {
+    flex-wrap: nowrap;
+  }
 }
 
 .rating {
   display: flex;
-  margin-left: 68px;
+  // margin-left: 68px;
 }
 
 .ratingstar {
@@ -131,9 +134,9 @@ a {
     height: 450px;
   }
 
-  .rating {
-    margin-left: 225px;
-  }
+  // .rating {
+  //    margin-left: 225px;
+  // }
 }
 
 @media (max-width: 320px) {
@@ -155,6 +158,6 @@ a {
 
   .rating {
     display: flex;
-    margin-left: 185px;
+    // margin-left: 185px;
   }
 }
