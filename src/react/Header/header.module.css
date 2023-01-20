@@ -8,22 +8,8 @@
   max-width: 1440px;
 }
 
-@media (max-width: 320px) {
-  .res {
-    max-width: 320px;
-  }
-}
-
-@media (max-width: 375px) {
-  .res {
-    max-width: 375px;
-  }
-}
-
-@media (max-width: 425px) {
-  .res {
-    max-width: 425px;
-  }
+.test {
+  height: 60px;
 }
 
 .header {
@@ -59,4 +45,4 @@
   .header-small {
     display: none;
   }
-} /*# sourceMappingURL=header.module.css.map */
+}/*# sourceMappingURL=header.module.css.map */

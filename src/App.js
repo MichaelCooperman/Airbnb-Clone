@@ -17,6 +17,7 @@ function App() {
           <Filters setSelectedOption={setSelectedOption} />
           <Cards selectedOption={selectedOption} />
           <Footer />
+          <div className={classes.test}></div>
         </div>
       </div>
     </React.Fragment>
